@@ -15,6 +15,9 @@ body{
     float: left;
     padding: 0;
 }
+.col-33{
+    width: 33.33%;
+}
 h1,h2,h3,h4{
     font-weight: 700;
     font-family: 'Righteous', cursive;  
@@ -35,6 +38,9 @@ p{
     font-size: 20px;
     font-weight: 700;
 }
+img{
+    width: 100%;
+}
 .home{
     height: 700px;
     background-image: url(images/donation13.jpg);
@@ -46,7 +52,7 @@ p{
     text-align: center;
     padding: 120px 0;
     color: #fff;
-    
+   
 }
 .home-content h1{
     font-size: 50px;
@@ -93,3 +99,128 @@ p{
 .button-2{
 margin: 50px auto;
 }
+/*==============donate-css-end===============*/
+.donate-plan{
+    height: 800px;
+}
+.donate-plan img{
+width:500px;
+height:300px;
+}
+.donate-plan-bottom{
+    display: flex;
+}
+.donate-plan-bottom h3{
+    font-size: 28px;
+}
+.donate-plan-heading{
+    text-align: center;
+    padding: 30px;
+}
+.donate-plan-heading h2{
+    font-size: 40px;
+}
+.donate-plan-heading p{
+    font-size: 25px;
+    padding: 0 20%;
+}
+.box-shadow{
+    padding: 20px ;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 10px rgb(214, 207, 207), -5px -5px 5px 10px rgb(218, 215, 215);
+    margin: 0 20px;
+}
+/*==============-donate-plan-css-end===============*/
+.our-mission{
+    height: 500px;
+}
+.mission-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mission-header h2{
+    font-size: 40px;
+}
+.mission-header span{
+    font-size: 20px;
+}
+.mission-content{
+    display: flex; 
+}
+.mission-left i{
+ padding: 30px;
+ background-color: #eb6411;
+ border-radius: 10px;
+ float: left;
+ font-size: 40px;
+ margin-left: 100px;
+ margin-right: 20px;
+}
+.mission-left-content p{
+    font-size: 15px;
+}
+.mission-left-content span{
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 700;
+}
+.mission-left-content{
+    padding-bottom: 20px;
+}
+.mission-right img{
+    margin-left: 400px;
+    margin-right: 40px;
+    width: 800px;
+    height: 400px;
+}
+/*==============-our-mission-css-end===============*/
+
+
+.my-update{
+    text-align: center;
+}
+.update-header h2{
+    font-size: 40px;
+}
+.update-input{
+    background-color: #FFF4D6;
+    padding: 60PX;
+    border-radius: 10px;
+}
+.input-size{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#input-submit{
+    background-color: #eb6411;
+}
+/*==============-UPDATE-css-end===============*/
+
+footer{
+    background:#0B0D17;
+    height: 150px;
+    text-align: center;
+}
+footer span{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(234, 234, 234);
+   
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
