@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1,h2,h3,h4{
+    font-weight: 700;
+    font-family: 'Righteous', cursive;  
+}
+.button{
+    background-color: rgb(232, 10, 10);
+    padding: 16px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home{
+    height: 700px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.home-content{
+    text-align: center;
+    padding: 120px 0;
+    color: #fff;
+    
+}
+.home-content h1{
+    font-size: 50px;
+    
+}
+.home-content p{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+/*==============home-css-end===============*/
+
+
+
+
+
+
+
+
+
+
+
+
